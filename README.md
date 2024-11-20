@@ -24,7 +24,7 @@ Examples include customer segmentation and sales performance reports.
 
 
 ### Key Features
-- Database: Northwind (classic retail dataset).
+- Database: Northwind.
 - Tools Used:
   - DBT: For data transformation and modeling.
   - BigQuery (or specify your warehouse): As the underlying data warehouse.
@@ -34,5 +34,6 @@ Examples include customer segmentation and sales performance reports.
   - Use of macros and tests for quality assurance.
 
 ### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- 
+- Learn more about dbt (https://docs.getdbt.com/docs/introduction)
+- Northwind - The Northwind database is a sample relational database created by Microsoft. It was originally designed as part of their Access database product to demonstrate database concepts and functionalities.
+- BigQuery (https://cloud.google.com/bigquery)
