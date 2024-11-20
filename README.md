@@ -1,15 +1,38 @@
-Welcome to your new dbt project!
+# Northwind DBT Project
 
-### Using the starter project
+### Overview
+The project demonstrates a robust implementation of data modeling using DBT, incorporating staging, warehouse, and analytics layers to create a clean and maintainable data pipeline. 
 
-Try running the following commands:
-- dbt run
-- dbt test
+### Project Structure
 
+The project follows a layered architecture to transform raw data into meaningful insights:
+
+#### Staging Layer (staging):
+
+Raw data from the Northwind database is cleaned and standardized.
+Tables are named using the prefix stg_ (e.g., stg_orders, stg_customers).
+
+#### Warehouse Layer (warehouse):
+
+The staging data is transformed into intermediate models for analytical readiness.
+Tables represent core business entities (e.g., dim_product, dim_customer, fact_sales).
+
+#### Analytics Layer (analytics):
+
+Final models designed for specific analytics use cases.
+Examples include customer segmentation and sales performance reports.
+
+
+### Key Features
+- Database: Northwind (classic retail dataset).
+- Tools Used:
+  - DBT: For data transformation and modeling.
+  - BigQuery (or specify your warehouse): As the underlying data warehouse.
+- Techniques Implemented:
+  - Data cleaning and deduplication.
+  - Dimensional modeling with fact and dimension tables.
+  - Use of macros and tests for quality assurance.
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- 
