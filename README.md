@@ -7,7 +7,7 @@ The project demonstrates a robust implementation of data modeling using DBT, inc
 
 
 ### Project structure
-- Some of the key steps involved in the project include requirements gathering, data profiling, Bus Matrix, conceptual modeling, architecture design, source-to-target mapping, logical and physical model design, staging and data warehouse layers, analytics OBT, debugging, and testing. These steps are not exhaustive and do not necessarily follow a strict order, as I had to iterate and revisit different stages throughout the process.
+Some of the key steps involved in the project include requirements gathering, data profiling, Bus Matrix, conceptual modeling, architecture design, source-to-target mapping, logical and physical model design, staging and data warehouse layers, analytics OBT, debugging, and testing. These steps are not exhaustive and do not necessarily follow a strict order, as I had to iterate and revisit different stages throughout the process.
 
 #### Staging Layer (staging):
 - Raw data from the Northwind database is cleaned and standardized.
