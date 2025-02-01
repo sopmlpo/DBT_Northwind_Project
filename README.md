@@ -3,12 +3,11 @@
 
 
 ### Overview
-The project demonstrates a robust implementation of data modeling using DBT, incorporating staging, warehouse, and analytics layers to create a clean and maintainable data pipeline. 
+The project demonstrates a robust implementation of data modeling using DBT, incorporating staging, warehouse, and analytics layers to buid a dimensional data warehouse.
 
 
-
-### Project Structure
-The project follows a layered architecture to transform raw data into meaningful insights:
+### Project structure
+- Some of the key steps involved in the project include requirements gathering, data profiling, Bus Matrix, conceptual modeling, architecture design, source-to-target mapping, logical and physical model design, staging and data warehouse layers, analytics OBT, debugging, and testing. These steps are not exhaustive and do not necessarily follow a strict order, as I had to iterate and revisit different stages throughout the process.
 
 #### Staging Layer (staging):
 - Raw data from the Northwind database is cleaned and standardized.
@@ -21,7 +20,7 @@ The project follows a layered architecture to transform raw data into meaningful
 
 #### Analytics Layer (analytics):
 - Final models designed for specific analytics use cases.
-- Examples include customer segmentation and sales performance reports.
+- Examples include product inventory, customer and sales overview reports.
 
 
 
@@ -29,7 +28,7 @@ The project follows a layered architecture to transform raw data into meaningful
 - Database: Northwind.
 - Tools Used:
   - DBT: For data transformation and modeling.
-  - BigQuery (or specify your warehouse): As the underlying data warehouse.
+  - BigQuery: As the underlying data warehouse.
 - Techniques Implemented:
   - Data cleaning and deduplication.
   - Dimensional modeling with fact and dimension tables.
