@@ -32,7 +32,6 @@ Some of the key steps involved in the project include requirements gathering, da
 - Techniques Implemented:
   - Data cleaning and deduplication.
   - Dimensional modeling with fact and dimension tables.
-  - Use of macros and tests for quality assurance.
 
 
 
